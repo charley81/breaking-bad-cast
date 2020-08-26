@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from './components/ui/Header';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Breaking Bad</h1>
+    <div className='container'>
+      <Header />
     </div>
   );
 }
